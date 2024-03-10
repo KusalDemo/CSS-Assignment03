@@ -1,0 +1,64 @@
+#div1{
+    width: 20vw;
+    aspect-ratio: 1/1;
+    border: dimgray solid 2vw;
+    border-radius: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#div2{
+    width: 17.5vw;
+    aspect-ratio: 1/1;
+    border: red solid 1.5vw;
+    border-radius: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+#span1{
+    background-color: purple;
+}
+#span2{
+    background-color: cornflowerblue;
+}
+#span3{
+    background-color: coral;
+}
+#span1, #span2, #span3{
+    position: absolute;
+    width: 17.5vw;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#txt1, #txt2, #txt3{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
